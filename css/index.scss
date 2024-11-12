@@ -586,25 +586,25 @@
       border-color: $bgGray transparent transparent transparent;
 
       @include bp(sp) {
-        bottom: -70px;
-        border-width: 70px 50vw 0 50vw;
+        // bottom: -70px;
+        // border-width: 70px 50vw 0 50vw;
       }
 
       @include bp(tb) {
-        bottom: -140px;
-        border-width: 140px 50vw 0 50vw;
+        // bottom: -140px;
+        // border-width: 140px 50vw 0 50vw;
       }
     }
 
     &.box {
       @include bp(sp) {
-        padding: 50px 0 90px 0;
-        margin-bottom: 100px;
+        padding: 50px 0 60px 0;
+        // margin-bottom: 100px;
       }
 
       @include bp(tb) {
-        padding: 100px 0 140px 0;
-        margin-bottom: 240px;
+        padding: 100px 0 80px 0;
+        margin-bottom: 0;
       }
     }
   }
