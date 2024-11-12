@@ -57,7 +57,7 @@
     @include bp(sp) {
       height: max(323px, vwsp(323));
       width: calc(100% - vwsp(13));
-      margin-bottom: vwsp(46);
+      margin-bottom: vwsp(26);
       padding: 0;
     }
 
@@ -286,12 +286,16 @@
     background-image: linear-gradient(to right, #fc7f13 0%, #ea5a00 100%);
 
     @include bp(sp) {
-      bottom: -10%;
+      bottom: -2%;
       right: auto;
       left: 50%;
       transform: translateX(-50%);
       width: vwsp(360);
       border-radius: vwsp(8);
+    }
+
+    @media screen and (min-width: 751px) and (max-width: 898px) {
+      bottom: -8%;
     }
   }
 

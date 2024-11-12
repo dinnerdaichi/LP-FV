@@ -734,7 +734,7 @@ body.modal-open {
   #lp-202211 .mv_cont {
     height: max(323px, 82.82vw);
     width: calc(100% - 3.33vw);
-    margin-bottom: 11.79vw;
+    margin-bottom: 6.67vw;
     padding: 0;
   }
 }
@@ -973,13 +973,18 @@ body.modal-open {
 }
 @media only screen and (max-width: 899px) {
   #lp-202211 .mv_ctaBtn {
-    bottom: -10%;
+    bottom: -2%;
     right: auto;
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     width: 92.31vw;
     border-radius: 2.05vw;
+  }
+}
+@media screen and (min-width: 751px) and (max-width: 898px) {
+  #lp-202211 .mv_ctaBtn {
+    bottom: -8%;
   }
 }
 #lp-202211 .mv_ctaBtn_txtWrapper {
