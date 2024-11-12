@@ -734,7 +734,7 @@ body.modal-open {
   #lp-202211 .mv_cont {
     height: max(323px, 82.82vw);
     width: calc(100% - 3.33vw);
-    margin-bottom: 14.36vw;
+    margin-bottom: 11.79vw;
     padding: 0;
   }
 }
@@ -742,7 +742,7 @@ body.modal-open {
   #lp-202211 .mv_cont {
     height: max(323px, 76.92vw);
     width: calc(100% - 3.33vw);
-    margin-bottom: 14.36vw;
+    margin-bottom: 10.26vw;
     padding: 0;
   }
 }
