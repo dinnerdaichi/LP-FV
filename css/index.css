@@ -1067,7 +1067,7 @@ body.modal-open {
   #lp-202211 .mv_ctaBtn_txt2::after {
     width: 5.13vw;
     height: 5.13vw;
-    right: 48px;
+    right: 8%;
     top: 0.51vw;
   }
 }
