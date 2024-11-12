@@ -77,7 +77,7 @@
 
   .mv_ttl {
     top: -3px;
-    left: 20px;
+    left: 4%;
 
     @include bp(sp) {
       top: vhsp(272);
@@ -178,9 +178,10 @@
       width: vwsp(190);
       top: vwsp(125);
       left: 0;
-      margin-left: 8px;
+      margin-left: 4px;
 
     }
+
   }
 
   .mv_txt2Cont {

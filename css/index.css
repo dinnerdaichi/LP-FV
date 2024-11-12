@@ -751,7 +751,7 @@ body.modal-open {
 }
 #lp-202211 .mv_ttl {
   top: -3px;
-  left: 20px;
+  left: 4%;
 }
 @media only screen and (max-width: 899px) {
   #lp-202211 .mv_ttl {
@@ -863,7 +863,7 @@ body.modal-open {
     width: 48.72vw;
     top: 32.05vw;
     left: 0;
-    margin-left: 8px;
+    margin-left: 4px;
   }
 }
 #lp-202211 .mv_txt2Cont {
