@@ -78,13 +78,14 @@
 
   .mv_ttl {
     top: -3px;
-    left: 4%;
+    left: 2%;
 
     @include bp(sp) {
       top: vhsp(272);
       right: vwsp(24);
       top: 10px;
-      right: 0;
+      left: 4%;
+      // right: 0;
     }
   }
 
