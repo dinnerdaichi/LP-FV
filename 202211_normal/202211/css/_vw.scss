@@ -1,0 +1,20 @@
+@use "sass:math";
+@use "round" as r;
+
+@function vw($px, $viewport) {
+  $rate: math.div(100, $viewport);
+  $return: r.round-decimal(($rate * $px * 1vw), 2);
+  @return $return;
+}
+
+@function vwpc($px) {
+  $rate: math.div(100, 1440);
+  $return: r.round-decimal(($rate * $px * 1vw), 2);
+  @return $return;
+}
+
+@function vwsp($px) {
+  $rate: math.div(100, 390);
+  $return: r.round-decimal(($rate * $px * 1vw), 2);
+  @return $return;
+}
