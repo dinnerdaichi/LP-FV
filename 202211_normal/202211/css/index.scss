@@ -83,7 +83,7 @@
     @include bp(sp) {
       top: vhsp(272);
       right: vwsp(24);
-      top: 10px;
+      top: -5%;
       left: 4%;
       // right: 0;
     }
@@ -121,7 +121,7 @@
     align-items: center;
 
     @include bp(sp) {
-      top: 40%;
+      top: 35%;
       left: 2.6%;
       width: 100%;
       justify-content: flex-end;
